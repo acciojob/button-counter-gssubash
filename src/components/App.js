@@ -6,7 +6,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   const inc = () => {
-    setCount((val) => val + 1);
+    setCount((v) => v + 1);
   }
   return (
     <div>
